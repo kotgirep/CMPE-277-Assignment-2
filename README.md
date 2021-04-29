@@ -26,5 +26,7 @@
  
   4. I have applied gradient background via XML.
 
-  5. in this assignment i have used constraint layout and applied to the element like textview, imageview and input field.
+  5. In this assignment i have used constraint layout and applied to the element like textview, imageview and input field.
+
+  6. In this assignment the application shows sunset,sunrise,min temprature, maximum temprature,pressure, windspeed, Current Temprature of a particular city.
 
