@@ -8,4 +8,16 @@
 
 1. I fetched Weather data from OpenWeatherMap API.
 2. I have used libraries like retrofit,mochi 
+ `implementation "com.squareup.retrofit2:retrofit:$version_retrofit"`
+ `implementation "com.squareup.retrofit2:converter-scalars:$version_retrofit"`
+ `implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'`
+
+    // Retrofit with Moshi Converter dependancy
+    `implementation "com.squareup.retrofit2:converter-moshi:$version_retrofit"`
+    `implementation 'com.google.android.gms:play-services-maps:17.0.0'`
+
+    //Moshi dependancy to parse json data
+    `def version_moshi = "1.8.0"`
+    `implementation "com.squareup.moshi:moshi:$version_moshi"`
+    `implementation "com.squareup.moshi:moshi-kotlin:$version_moshi"`
 
