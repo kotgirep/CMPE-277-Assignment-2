@@ -2,5 +2,5 @@
 #### Student Name: Pranjali Kotgire (014640379)
 #### University Name: San Jose State University
 #### App Demo:
-![](https://github.com/kotgirep/CMPE-277-Assignment-2/blob/main/Weatherapp.png =250x250)
+![]("https://github.com/kotgirep/CMPE-277-Assignment-2/blob/main/Weatherapp.png" width="200" height="400")
 
