@@ -3,6 +3,10 @@
 #### University Name: San Jose State University
 #### App Screenshots:
  <img src="https://github.com/kotgirep/CMPE-277-Assignment-2/blob/main/MainScreen.png" width="250">
+ <img src="https://github.com/kotgirep/CMPE-277-Assignment-2/blob/main/Scroll-View.png" width="250">
+ <img src="https://github.com/kotgirep/CMPE-277-Assignment-2/blob/main/Scroll-view2.png" width="250">
+ 
+ 
  
 #### Steps:
 
