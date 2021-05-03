@@ -41,5 +41,5 @@
   7. I am converting temprature from degree celcius to Farenheit 
   
   8. I have Added Scroll-view AS well where we can Rotate Screen and though data display doesnot change.
-  9. 
+   
 
