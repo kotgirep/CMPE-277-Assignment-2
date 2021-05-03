@@ -37,4 +37,9 @@
   5. In this assignment i have used constraint layout and applied to the element like textview, imageview and input field.
 
   6. In this assignment the application shows sunset,sunrise,min temprature, maximum temprature,pressure, windspeed, Current Temprature of a particular city.
+  
+  7. I am converting temprature from degree celcius to Farenheit 
+  
+  8. I have Added Scroll-view AS well where we can Rotate Screen and though data display doesnot change.
+  9. 
 
