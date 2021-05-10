@@ -58,25 +58,25 @@ class WeatherViewModel : ViewModel() {
 
                   // weather_temp in F and Degrees
                     val weather_temp = response.body()?.amdroid_mainpart?.temp;
-                    val weather_tempF = (9.0 / 5 * (weather_temp?.minus(273)!!) + 32);
+                    val weather_tempF = (9.0 / 5 * (tempvalue?.minus(273)!!) + 32);
                     val weather_tempD = dec.format(weather_tempF);
                     weather_temp.value = "$weather_tempD °F";
 
                     val min_temp = response.body()?.amdroid_mainpart?.temp_min;
-                    val min_tempF = (9.0 / 5 * (min_temp?.minus(273)!!) + 32);
+                    val min_tempF = (9.0 / 5 * (tempvalue?.minus(273)!!) + 32);
+                   
                     val min_tempD = dec.format(min_tempF);
-
+                    val max_tempF = (9.0 / 5 * (tempvalue?.minus(273)!!) + 32);
                     val max_temp = response.body()?.amdroid_mainpart?.temp_max;
-                    val max_tempF = (9.0 / 5 * (max_temp?.minus(273)!!) + 32);
+                    
                     val max_tempD = dec.format(max_tempF);
                     Min Temp.value = "Min Temp $min_tempD °F               Max Temp $max_tempD °F";
-                    /*mintemp.value = "Min Temp ${response.body()?.amdroid_mainpart?.temp_min}°C";
-                    maxtemp.value = "Max Temp ${response.body()?.amdroid_mainpart?.temp_max}°C";*/
+                    
 
 
 
                     val feels_like_temprature = response.body()?.amdroid_mainpart?.feels_like;
-                    val feels_like_tempratureF = (9.0 / 5 * (feels_like_temprature?.minus(273)!!) + 32);
+                    
                     val feels_like_tempratureD = dec.format(feels_like_tempratureF);
                     feelslike.value = "Feels Like $feels_like_tempratureD °F";
 
