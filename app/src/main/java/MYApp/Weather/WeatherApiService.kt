@@ -1,5 +1,4 @@
-package sjsu.cmpe277.Assignment2.Network
-
+package Myapp.weather;
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.Deferred

@@ -1,5 +1,4 @@
-package sjsu.cmpe277.Assignment2.Network
-
+package Myapp.weather;
 import androidx.activity.OnBackPressedCallback
 import com.squareup.moshi.Json
 
