@@ -1,5 +1,4 @@
-package sjsu.cmpe277.Assignment2.Network
-
+package Myapp.weather;
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
